@@ -1,0 +1,28 @@
+body{
+    background-color: cadetblue;
+}
+h1{
+    color:rgb(68, 241, 247);
+    background-color: gray;
+}
+#show_sketch{
+float:right;
+font-size: 20;
+}
+canvas{
+    border:5px solid white;
+    border-radius: 10px;
+    animation-name:abc;
+     animation-duration: 4s;
+     margin-top: 50px;
+     animation-iteration-count: infinite;
+}
+@keyframes abc{
+    from{box-shadow:1px 1px 40px palevioletred;}
+    to{box-shadow:1px 1px 40px plum;}
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+    
+}
